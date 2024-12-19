@@ -1499,16 +1499,16 @@
     "@nevware21/ts-utils" ">= 0.10.4 < 2.x"
 
 "@nevware21/ts-async@>= 0.5.2 < 2.x":
-  version "0.5.3"
-  resolved "https://registry.yarnpkg.com/@nevware21/ts-async/-/ts-async-0.5.3.tgz#47c04351458b040457977fb4b75c43c27fba3283"
-  integrity sha512-UsF7eerLsVfid7iV1oXF80qXBwHNBeqSqfh/nPZgirRU1MACmSsj83EZKS2ViFHVfSGG6WIuXMGBP6KciXfYhA==
+  version "0.5.4"
+  resolved "https://registry.yarnpkg.com/@nevware21/ts-async/-/ts-async-0.5.4.tgz#52f8449dd0b3b16aa317a18b4662f6fb13a135f1"
+  integrity sha512-IBTyj29GwGlxfzXw2NPnzty+w0Adx61Eze1/lknH/XIVdxtF9UnOpk76tnrHXWa6j84a1RR9hsOcHQPFv9qJjA==
   dependencies:
-    "@nevware21/ts-utils" ">= 0.11.5 < 2.x"
+    "@nevware21/ts-utils" ">= 0.11.6 < 2.x"
 
-"@nevware21/ts-utils@>= 0.10.4 < 2.x", "@nevware21/ts-utils@>= 0.11.3 < 2.x", "@nevware21/ts-utils@>= 0.11.5 < 2.x", "@nevware21/ts-utils@>= 0.9.4 < 2.x":
-  version "0.11.5"
-  resolved "https://registry.yarnpkg.com/@nevware21/ts-utils/-/ts-utils-0.11.5.tgz#b900f5d04e657a96e096a58dad6e0b7aed273efb"
-  integrity sha512-7nIzWKR50mf3htOg53kwPLqD5iJaRfVyBvb1NJhlIncyP1WzK8vAQbU9rqIsRtv7td1CnqspdP6IWNEjOjaeug==
+"@nevware21/ts-utils@>= 0.10.4 < 2.x", "@nevware21/ts-utils@>= 0.11.3 < 2.x", "@nevware21/ts-utils@>= 0.11.6 < 2.x", "@nevware21/ts-utils@>= 0.9.4 < 2.x":
+  version "0.11.6"
+  resolved "https://registry.yarnpkg.com/@nevware21/ts-utils/-/ts-utils-0.11.6.tgz#49f43d0c488fcf127ef4bdd1356637092ed0c7e2"
+  integrity sha512-OUUJTh3fnaUSzg9DEHgv3d7jC+DnPL65mIO7RaR+jWve7+MmcgIvF79gY97DPQ4frH+IpNR78YAYd/dW4gK3kg==
 
 "@nicolo-ribaudo/eslint-scope-5-internals@5.1.1-v1":
   version "5.1.1-v1"
@@ -1832,12 +1832,12 @@
     prompts "^2.4.2"
     semver "^7.5.2"
 
-"@react-native-windows/cli@0.76.0":
-  version "0.76.0"
-  resolved "https://registry.yarnpkg.com/@react-native-windows/cli/-/cli-0.76.0.tgz#d56d4a1904cc8967d3de55720d864e7ad28ee2d9"
-  integrity sha512-qqebvbWqGJmA5FVghw/XQ+NiloWB0rAEHgGvel4AAVPQPUVtrHCFX3DX4Ynnoyr7Wo+e82bAAF4G7NSHrJ+wWA==
+"@react-native-windows/cli@0.76.1":
+  version "0.76.1"
+  resolved "https://registry.yarnpkg.com/@react-native-windows/cli/-/cli-0.76.1.tgz#e9adf7bc48c69f2bc1a1f428a03934df8588e7a4"
+  integrity sha512-KR5sMqNUrtySPPBOrEWOY6ZAYxWSj3cTGTdO40NRcVt1Wwf8fKTAYFHI+rvNTfvzp+U60D5f6roWRrCr8wCxHA==
   dependencies:
-    "@react-native-windows/codegen" "0.76.0"
+    "@react-native-windows/codegen" "0.76.1"
     "@react-native-windows/fs" "0.76.0"
     "@react-native-windows/package-utils" "0.76.0"
     "@react-native-windows/telemetry" "0.76.0"
@@ -1858,10 +1858,10 @@
     xml-parser "^1.2.1"
     xpath "^0.0.27"
 
-"@react-native-windows/codegen@0.76.0":
-  version "0.76.0"
-  resolved "https://registry.yarnpkg.com/@react-native-windows/codegen/-/codegen-0.76.0.tgz#60f96b23e43b08069700203552d50d9b63ed705b"
-  integrity sha512-q6KT0Y+2g/bIgTWPVJ5Aots61chQ+ztyPZ6Z/GrJllyRE5SIvi/tQg0V1Hf1Ol0ySm3ETRIdRzdStEy6Vu7qeA==
+"@react-native-windows/codegen@0.76.1":
+  version "0.76.1"
+  resolved "https://registry.yarnpkg.com/@react-native-windows/codegen/-/codegen-0.76.1.tgz#96641cff04a562de5124df4a075a28b157ab0b89"
+  integrity sha512-H1ctOaG/N0C/PVCh8M5611wT2VR2cDwBPGa7j++Tc9fK1HqN0IVbWH5WcZQyGx84yrUexG8Qmlu0yM9Np1dFWQ==
   dependencies:
     "@react-native-windows/fs" "0.76.0"
     chalk "^4.1.0"
@@ -4515,6 +4515,13 @@ is-core-module@^2.13.0:
   dependencies:
     hasown "^2.0.2"
 
+is-core-module@^2.16.0:
+  version "2.16.0"
+  resolved "https://registry.yarnpkg.com/is-core-module/-/is-core-module-2.16.0.tgz#6c01ffdd5e33c49c1d2abfa93334a85cb56bd81c"
+  integrity sha512-urTSINYfAYgcbLb0yDQ6egFm6h3Mo1DcF9EkyXSRjjzdHbsulg01qhwWuXdOoUBuTkbQ80KDboXa0vFJ+BDH+g==
+  dependencies:
+    hasown "^2.0.2"
+
 is-data-view@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/is-data-view/-/is-data-view-1.0.1.tgz#4b4d3a511b70f3dc26d42c03ca9ca515d847759f"
@@ -6307,17 +6314,17 @@ react-is@^17.0.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.2.tgz#e691d4a8e9c789365655539ab372762b0efb54f0"
   integrity sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==
 
-react-native-windows@0.76.2:
-  version "0.76.2"
-  resolved "https://registry.yarnpkg.com/react-native-windows/-/react-native-windows-0.76.2.tgz#c61bdeb429eb75b4f66c7f35c47a70e5c2d46639"
-  integrity sha512-pAOOxsNjI2lBW0DNVZqQfRT3XEMvuMk++gCl00ScEFI5iyZcenN1wODhqbSOAJXzbZCJtkpmNjWUXdfC22vWpg==
+react-native-windows@0.76.3:
+  version "0.76.3"
+  resolved "https://registry.yarnpkg.com/react-native-windows/-/react-native-windows-0.76.3.tgz#ac8a0e590942beaee579a4c3c56a48ab762c3586"
+  integrity sha512-IE0t22dWZVKna9LIT9Rkujn0Xtnhok8nmte1kX5wZYhuHL0gtd3XQiNngVTI8oGOaxbb2v3j8tl5ZBYF/gfP0A==
   dependencies:
     "@babel/runtime" "^7.0.0"
     "@jest/create-cache-key-function" "^29.6.3"
     "@react-native-community/cli" "15.0.0-alpha.2"
     "@react-native-community/cli-platform-android" "15.0.0-alpha.2"
     "@react-native-community/cli-platform-ios" "15.0.0-alpha.2"
-    "@react-native-windows/cli" "0.76.0"
+    "@react-native-windows/cli" "0.76.1"
     "@react-native/assets" "1.0.0"
     "@react-native/assets-registry" "0.76.2"
     "@react-native/codegen" "0.76.2"
@@ -6589,7 +6596,16 @@ resolve.exports@^2.0.0:
   resolved "https://registry.yarnpkg.com/resolve.exports/-/resolve.exports-2.0.2.tgz#f8c934b8e6a13f539e38b7098e2e36134f01e800"
   integrity sha512-X2UW6Nw3n/aMgDVy+0rSqgHlv39WZAlZrXCdnbyEiKm17DSqHX4MmQMaST3FbeWR5FTuRcUwYAziZajji0Y7mg==
 
-resolve@^1.1.6, resolve@^1.14.2, resolve@^1.20.0:
+resolve@^1.1.6:
+  version "1.22.10"
+  resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.22.10.tgz#b663e83ffb09bbf2386944736baae803029b8b39"
+  integrity sha512-NPRy+/ncIMeDlTAsuqwKIiferiawhefFJtkNSW0qZJEqMEb+qBt/77B/jGeeek+F0uOeN05CDa6HXbbIgtVX4w==
+  dependencies:
+    is-core-module "^2.16.0"
+    path-parse "^1.0.7"
+    supports-preserve-symlinks-flag "^1.0.0"
+
+resolve@^1.14.2, resolve@^1.20.0:
   version "1.22.8"
   resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.22.8.tgz#b6c87a9f2aa06dfab52e3d70ac8cde321fa5a48d"
   integrity sha512-oKWePCxqpd6FlLvGV1VU0x7bkPmmCNolxzjMf4NczoDnQcIWrAF+cPtZn5i6n+RfD2d9i0tzpKnG6Yk168yIyw==
